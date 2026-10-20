@@ -54,17 +54,19 @@ Exiting the calculator.
 
 ## Project status
 
-The calculator is usable. Entering `sqrt(14+24)` currently triggers a hidden input check, but game selection and the mini-games are not implemented yet. The ideas below may change as the project develops.
+The calculator is usable, and the first hidden game, **Quick math**, is playable. Enter `sqrt(14+24)` in the calculator and choose `1` to start it. Games `2` and `3` are still planned.
+
+Quick math is an early version and can generate difficult division problems such as `22 / 49`. It currently accepts only integer (`int`) answers; fractions and decimal answers are not supported, so problems with non-integer results may be checked inaccurately.
 
 Once the digital version is ready, the plan is to bring HiddenCalc to a physical device.
 
-## Planned mini-games
+## Mini-games
 
-After entering the secret expression, the plan is to choose a game by typing `1`, `2`, or `3`:
+After entering the secret expression, choose a game by typing `1`, `2`, or `3`:
 
-1. **Quick math:** Solve a randomly generated math problem as fast as you can.
-2. **Countdown:** Type a number shown on screen before it decreases again (for example, `947 → 946 → 945`).
-3. **Number builder:** Press digits to add them to a running total. Starting at `0`, pressing `9` and then `3` produces `12`. Build the highest total you can before time runs out.
+1. **Quick math (playable):** Solve randomly generated math problems until you give an incorrect answer.
+2. **Countdown (planned):** Type a number shown on screen before it decreases again (for example, `947 → 946 → 945`).
+3. **Number builder (planned):** Press digits to add them to a running total. Starting at `0`, pressing `9` and then `3` produces `12`. Build the highest total you can before time runs out.
 
 ## License
 
