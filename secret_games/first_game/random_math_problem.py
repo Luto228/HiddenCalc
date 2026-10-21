@@ -8,4 +8,5 @@ def random_math_problem():
 
     math_problem = f"{a} {op} {b}"
     answer = eval(math_problem)
+    answer = round(answer, 3)
     return math_problem, answer
