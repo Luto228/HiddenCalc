@@ -48,7 +48,7 @@ Exiting the calculator.
 
 ## Project status
 
-The calculator is usable, and the first two hidden games are ready. Enter `sqrt(14+24)` in the calculator, then choose `1` for **Quick math** or `2` for **Guess the number**. Game `3` is still planned.
+The calculator is usable, and all three hidden games can be launched from the menu. Enter `sqrt(14+24)` in the calculator, then choose `1` for **Quick math**, `2` for **Guess the number**, or `3` for **Target sum**. The third game is playable, with more features planned.
 
 Quick math is complete and accepts decimal answers. For a non-integer result, enter it rounded to three digits after the decimal point (for example, `22 / 49` becomes `0.449`).
 
@@ -56,11 +56,11 @@ Once the digital version is ready, the plan is to bring HiddenCalc to a physical
 
 ## Mini-games
 
-After entering the secret expression, choose a game by typing `1`, `2`, or `3`:
+After entering the secret expression, type `1`, `2`, or `3` to choose a game:
 
 1. **Quick math (ready):** Solve randomly generated math problems until you give an incorrect answer. Round non-integer answers to three decimal places.
 2. **Guess the number (ready):** Guess a randomly chosen integer from `1` to `1000`. After each incorrect guess, the game indicates whether the secret number is higher or lower. Keep guessing until you find it.
-3. **Number builder (planned):** Press digits to add them to a running total. Starting at `0`, pressing `9` and then `3` produces `12`. Build the highest total you can before time runs out.
+3. **Target sum (playable):** The game picks a target number from `10` to `634`. Enter one digit (`0` to `9`) at a time to add it to your total and reach the target as quickly as you can. If your total goes over the target, you lose. A timer and a limit on how often each digit can be used are planned.
 
 ## License
 
