@@ -60,7 +60,7 @@ After entering the secret expression, type `1`, `2`, or `3` to choose a game:
 
 1. **Quick math (ready):** Solve randomly generated math problems until you give an incorrect answer. Round non-integer answers to three decimal places.
 2. **Guess the number (ready):** Guess a randomly chosen integer from `1` to `1000`. After each incorrect guess, the game indicates whether the secret number is higher or lower. Keep guessing until you find it.
-3. **Target sum (playable):** The game picks a target number from `10` to `634`. Enter one digit (`0` to `9`) at a time to add it to your total and reach the target as quickly as you can. If your total goes over the target, you lose. A timer and a limit on how often each digit can be used are planned.
+3. **Target sum (playable):** The game picks a target number from `10` to `634`. Enter one digit (`0` to `9`) at a time to add it to your total and reach the target as quickly as you can. You cannot enter the same number more than 3 times. If your total goes over the target, you lose. A timer is planned.
 
 ## License
 
